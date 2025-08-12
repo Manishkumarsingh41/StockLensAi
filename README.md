@@ -1,17 +1,21 @@
-# StockLensAi
+# 📊 StockLensAi
 
 ![Project Image](images/stocklensai_screenshot.png)  <!-- Replace with your image path -->
 
 StockLensAi is a project that provides a curated list of top international stocks, helping users get quick insights into key global market players. This repository contains data and tools related to analyzing and visualizing international stock information.
 
-## Features
+---
+
+## 🚀 Features
 
 - List of top 100 international stocks with ticker symbols  
 - Supports multiple global markets and sectors  
 - Ready for integration with AI or data analysis tools  
 - Simple and easy-to-understand structure for further development  
 
-## Machine Learning Usage
+---
+
+## 🤖 Machine Learning Usage
 
 This project integrates several machine learning components for enhanced stock analysis:
 
@@ -21,7 +25,9 @@ This project integrates several machine learning components for enhanced stock a
 
 These ML features provide insights beyond raw stock data by incorporating natural language processing and time series forecasting.
 
-## Getting Started
+---
+
+## 🛠 Getting Started
 
 ### Prerequisites
 
@@ -51,12 +57,6 @@ venv\Scripts\activate
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
-
-
-
-
-
----
 
 ## 🙌 Credits & Connect
 
