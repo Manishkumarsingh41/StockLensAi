@@ -11,6 +11,16 @@ StockLensAi is a project that provides a curated list of top international stock
 - Ready for integration with AI or data analysis tools  
 - Simple and easy-to-understand structure for further development  
 
+## Machine Learning Usage
+
+This project integrates several machine learning components for enhanced stock analysis:
+
+- **Sentiment Analysis:** Uses a pretrained FinBERT transformer model to analyze financial news headlines and classify their sentiment (Positive, Negative, Neutral).  
+- **Stock Price Forecasting:** Implements Facebook's Prophet model to forecast future stock prices based on historical data, providing estimated accuracy using Mean Absolute Percentage Error (MAPE).  
+- **Performance Metrics:** Calculates and displays forecasting accuracy to help users understand model reliability.
+
+These ML features provide insights beyond raw stock data by incorporating natural language processing and time series forecasting.
+
 ## Getting Started
 
 ### Prerequisites
