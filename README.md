@@ -56,25 +56,14 @@ pip install -r requirements.txt
 
 
 
-```
+---
 
-Contributing
-Contributions are welcome! Please fork the repo and open a pull request.
+## 🙌 Credits & Connect
 
-License
-MIT License © 2025 Manish Kumar Singh
+Built with 💡 by [Manish Kumar Singh](https://github.com/Manishkumarsingh41)
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+If you found this helpful, consider ⭐️ starring the repo and **[following me on GitHub](https://github.com/Manishkumarsingh41)** for more AI + ML tools and projects.
 
-Credits
-Project created and maintained by Manish Kumar Singh
+> Made with passion for building smart, fast, and impactful solutions using AI tools.
 
-Sentiment analysis powered by FinBERT
-
-Forecasting powered by Prophet
-
-Data fetched from Yahoo Finance using yfinance Python package
-
-Follow Me
-For more projects and updates, follow me on GitHub:
-https://github.com/Manishkumarsingh41
+---
