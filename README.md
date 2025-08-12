@@ -51,3 +51,30 @@ venv\Scripts\activate
 
 # Install dependencies from requirements.txt
 pip install -r requirements.txt
+
+
+
+
+
+```
+
+Contributing
+Contributions are welcome! Please fork the repo and open a pull request.
+
+License
+MIT License © 2025 Manish Kumar Singh
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Credits
+Project created and maintained by Manish Kumar Singh
+
+Sentiment analysis powered by FinBERT
+
+Forecasting powered by Prophet
+
+Data fetched from Yahoo Finance using yfinance Python package
+
+Follow Me
+For more projects and updates, follow me on GitHub:
+https://github.com/Manishkumarsingh41
