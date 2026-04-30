@@ -1,70 +1,146 @@
-# 📊 StockLensAi
+# 📊 StockLensAI — AI-Powered Stock Analysis & Forecasting
 
-![Project Image](images/stocklensai_screenshot.png)  <!-- Replace with your image path -->
+## 🚀 Production-Ready AI System
 
-StockLensAi is a project that provides a curated list of top international stocks, helping users get quick insights into key global market players. This repository contains data and tools related to analyzing and visualizing international stock information.
-
----
-
-## 🚀 Features
-
-- List of top 100 international stocks with ticker symbols  
-- Supports multiple global markets and sectors  
-- Ready for integration with AI or data analysis tools  
-- Simple and easy-to-understand structure for further development  
+StockLensAI is an AI-powered stock analysis platform that provides insights into top international stocks using **sentiment analysis and time-series forecasting**.
 
 ---
 
-## 🤖 Machine Learning Usage
+## 🌐 Overview
 
-This project integrates several machine learning components for enhanced stock analysis:
+StockLensAI enables users to:
 
-- **Sentiment Analysis:** Uses a pretrained FinBERT transformer model to analyze financial news headlines and classify their sentiment (Positive, Negative, Neutral).  
-- **Stock Price Forecasting:** Implements Facebook's Prophet model to forecast future stock prices based on historical data, providing estimated accuracy using Mean Absolute Percentage Error (MAPE).  
-- **Performance Metrics:** Calculates and displays forecasting accuracy to help users understand model reliability.
-
-These ML features provide insights beyond raw stock data by incorporating natural language processing and time series forecasting.
+- Explore top international stocks across global markets  
+- Analyze financial news sentiment using NLP models  
+- Forecast future stock prices using time-series models  
+- Evaluate prediction accuracy with performance metrics  
 
 ---
 
-## 🛠 Getting Started
+## 🎯 Problem Statement
 
-### Prerequisites
+Stock market analysis is complex because:
 
-- Python 3.x installed on your system
+- Data is scattered across multiple sources  
+- News sentiment impacts stock prices but is hard to quantify  
+- Forecasting future trends requires statistical modeling  
 
-### Installation & Setup
+StockLensAI solves this using **data analysis + NLP + time-series forecasting**.
 
-Run the following commands in your terminal to clone the repo, create and activate a virtual environment, and install dependencies:
+---
 
-```bash
-# Clone the repository
+## 🧩 System Architecture
+
+Stock Data  
+→ News Data Collection  
+→ Sentiment Analysis (FinBERT)  
+→ Time Series Forecasting (Prophet)  
+→ Performance Evaluation (MAPE)  
+→ Insights & Visualization  
+
+---
+
+## ⚙️ Tech Stack
+
+**Backend / Core:**
+- Python  
+- Pandas, NumPy  
+
+**Machine Learning:**
+- FinBERT (Sentiment Analysis)  
+- Facebook Prophet (Time Series Forecasting)  
+
+**Visualization:**
+- Matplotlib / Data Visualization Tools  
+
+---
+
+## 🔥 Key Features
+
+- Top 100 international stocks dataset  
+- Sentiment analysis using FinBERT  
+- Stock price forecasting using Prophet  
+- Forecast accuracy evaluation (MAPE)  
+- Ready for integration with AI pipelines  
+- Clean and extensible project structure  
+
+---
+
+## 📸 Demo
+
+![StockLensAI Screenshot](images/stocklensai_screenshot.png)
+
+---
+
+## 📁 Project Structure
+
+```text
+StockLensAI/
+├── data/
+├── notebooks/
+├── models/
+├── scripts/
+├── images/
+│   └── stocklensai_screenshot.png
+├── requirements.txt
+└── README.md
+```
+##🛠️ Setup
+
+## Clone repository:
+```text
 git clone https://github.com/Manishkumarsingh41/StockLensAi.git
 cd StockLensAi
-
-# Create a virtual environment named 'venv'
-python -m venv venv
-
-# Activate the virtual environment
-# Windows (Command Prompt)
-venv\Scripts\activate
-
-# Windows (PowerShell)
-# .\venv\Scripts\Activate.ps1
-
-# macOS/Linux
-# source venv/bin/activate
-
-# Install dependencies from requirements.txt
-pip install -r requirements.txt
 ```
 
-## 🙌 Credits & Connect
+## Create virtual environment:
+```text
+python -m venv venv
+venv\Scripts\activate        # Windows
+# source venv/bin/activate   # macOS/Linux
+```
+## Install dependencies:
+```text
+pip install -r requirements.txt
+```
+## ⚡ Reliability
 
-Built with 💡 by [Manish Kumar Singh](https://github.com/Manishkumarsingh41)
+StockLensAI ensures reliable outputs through:
 
-If you found this helpful, consider ⭐️ starring the repo and **[following me on GitHub](https://github.com/Manishkumarsingh41)** for more AI + ML tools and projects.
-
-> Made with passion for building smart, fast, and impactful solutions using AI tools.
+- Structured data processing pipeline  
+- Pretrained NLP model for sentiment analysis  
+- Robust forecasting using Prophet  
+- Performance evaluation using MAPE  
 
 ---
+
+## 🏆 Why This Project Stands Out
+
+This is not just a dataset project.
+
+It is an AI system combining:
+
+- Natural Language Processing (FinBERT)  
+- Time-series forecasting (Prophet)  
+- Data analysis and visualization  
+
+Demonstrates real-world financial AI applications.
+
+---
+
+## 🚀 Future Improvements
+
+Planned enhancements include:
+
+- Real-time stock data integration  
+- Interactive dashboard (Streamlit / React)  
+- Advanced portfolio analytics  
+- Deployment as a web application  
+
+---
+
+## 📫 Connect
+
+- GitHub: https://github.com/Manishkumarsingh41  
+- LinkedIn: https://www.linkedin.com/in/manish-kumar-singh-5a8162214/  
+- Portfolio: https://manishkumarsingh41.github.io/myportfolio/
